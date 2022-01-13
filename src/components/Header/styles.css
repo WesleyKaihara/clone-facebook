@@ -8,6 +8,7 @@
   position: fixed;
   z-index: 999;
   border-bottom: 1px solid #666;
+  top: 0;
 }
 .Home {
   width: 50%;
@@ -35,6 +36,7 @@
   border-radius: 15px;
   padding: 0 8px;
   height: 40px;
+  width: 100%;
 }
 
 .home_abas {

@@ -1,0 +1,22 @@
+.MenuItem {
+  display: flex;
+  align-items: center;
+  gap: 2vh;
+  padding: 2vh;
+  border-radius: 10px;
+}
+
+.MenuItem:hover {
+  background: #444;
+}
+
+.MenuItem_img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.MenuItem_text {
+  color: #eee;
+  font-weight: bold;
+}

@@ -1,0 +1,35 @@
+.LeftMenu {
+  margin-top: 60px;
+  width: 25%;
+  padding-top: 10px;
+  margin-left: 2vh;
+  height: 100vh;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.Linha {
+  border-color: #999;
+  margin: 2vh 0 2vh 2vh;
+}
+
+.LeftMenu_atalhos {
+  color: #888;
+  font-size: 2.8vh;
+  margin-left: 2vh;
+  padding-bottom: 2vh;
+}
+
+.LeftMenu::-webkit-scrollbar {
+  width: 12px;
+}
+
+.LeftMenu::-webkit-scrollbar-track {
+  background: #333;
+}
+
+.LeftMenu::-webkit-scrollbar-thumb {
+  background-color: #666;
+  border-radius: 20px;
+  border: 3px solid #333;
+}
