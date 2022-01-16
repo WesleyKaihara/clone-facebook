@@ -96,3 +96,27 @@
 .Action_button:hover {
   background: #555;
 }
+
+@media (max-width: 1372px) {
+  .Publicacao {
+    width: 80%;
+  }
+  .Publicacao_comments_item {
+    font-size: 1.8vh;
+  }
+}
+
+@media (max-width: 1060px) {
+  .Publicacao {
+    width: 100%;
+  }
+  .Publicacao_name {
+    font-size: 1.3vh;
+  }
+  .Publicacao_time {
+    font-size: 1vh;
+  }
+  .Publicacao_comments_item {
+    font-size: 1.3vh;
+  }
+}

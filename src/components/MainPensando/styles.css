@@ -23,6 +23,7 @@
   gap: 2vh;
   font-size: 13px;
   text-align: justify;
+  flex-wrap: wrap;
 }
 
 .Pensando_linha {
@@ -35,11 +36,27 @@
   border: none;
   border-radius: 20px;
   padding: 1.4vh;
-  width: 100%;
+  width: 80%;
 }
 
 .Pensando_perfil {
   width: 35px;
   height: 35px;
   border-radius: 50%;
+}
+
+@media (max-width: 1372px) {
+  .MainPensando {
+    width: 80%;
+  }
+
+  .Pensando_item {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .MainPensando {
+    width: 100%;
+  }
 }

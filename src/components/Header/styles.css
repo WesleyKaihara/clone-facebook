@@ -115,3 +115,38 @@
 .header_config_item:hover {
   background: #666;
 }
+
+@media (max-width: 1372px) {
+  .home_abas {
+    gap: 10px;
+  }
+
+  .header_config_circle {
+    display: none;
+  }
+}
+
+@media (max-width: 1060px) {
+  .home_aba {
+    width: 5vh;
+    padding: 10px 20px;
+  }
+
+  .header_input {
+    display: none;
+  }
+
+  .logo_img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .header_perfil_name {
+    display: none;
+  }
+
+  .header_perfil {
+    margin: 0;
+    width: 100%;
+  }
+}

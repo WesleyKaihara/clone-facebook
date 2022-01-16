@@ -20,15 +20,15 @@ export const MainPensando = () => {
       <hr className="Pensando_linha" />
       <div className="Pensando_itens">
         <div className="Pensando_item">
-          <LiveTvIcon />
+          <LiveTvIcon className="Pensando_icon" />
           <p>Video ao vivo</p>
         </div>
         <div className="Pensando_item">
-          <PhotoLibraryIcon />
+          <PhotoLibraryIcon className="Pensando_icon" />
           <p>Foto/video</p>
         </div>
         <div className="Pensando_item">
-          <InsertEmoticonIcon />
+          <InsertEmoticonIcon className="Pensando_icon" />
           <p>Sentimento/atividade</p>
         </div>
       </div>
