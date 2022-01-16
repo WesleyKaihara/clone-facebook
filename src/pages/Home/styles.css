@@ -1,3 +1,5 @@
 .home {
   background: #222;
+  display: flex;
+  justify-content: space-between;
 }

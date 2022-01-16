@@ -1,0 +1,45 @@
+.MainPensando {
+  width: 70%;
+  margin: auto;
+  margin-top: 3vh;
+  background: #444;
+  padding: 2vh;
+  border-radius: 10px;
+}
+
+.Pensando_itens {
+  display: flex;
+  align-items: center;
+  margin: 0 2vh;
+  justify-content: space-between;
+  gap: 2vh;
+}
+
+.Pensando_item,
+.Pensado_input_content {
+  display: flex;
+  align-items: center;
+  color: #ddd;
+  gap: 2vh;
+  font-size: 13px;
+  text-align: justify;
+}
+
+.Pensando_linha {
+  margin: 2vh 1vh;
+  border-color: #888;
+}
+
+.Pensando_input {
+  background: #555;
+  border: none;
+  border-radius: 20px;
+  padding: 1.4vh;
+  width: 100%;
+}
+
+.Pensando_perfil {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}

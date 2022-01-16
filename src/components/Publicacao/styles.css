@@ -1,0 +1,98 @@
+.Publicacao {
+  width: 70%;
+  margin: auto;
+  margin-top: 2.5vh;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+.Publicacao_perfil {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.Publicacao_info {
+  padding: 2vh;
+  display: flex;
+  align-items: center;
+  gap: 2vh;
+}
+
+.Publicacao_name {
+  font-size: 2.3vh;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.Publicacao_time {
+  font-size: 2vh;
+  color: #888;
+}
+
+.Publicacao_time_info {
+  display: flex;
+  align-items: center;
+  color: #ddd;
+  gap: 2vh;
+}
+
+.Publicacao_img {
+  width: 100%;
+}
+
+.Publicacao_actions_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Publicacao_reactions {
+  display: flex;
+  padding: 2vh;
+  gap: 2px;
+}
+
+.reaction {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.Publicacao_comments_info {
+  display: flex;
+  align-items: center;
+  margin-right: 2vh;
+  gap: 2vh;
+  cursor: pointer;
+}
+
+.Publicacao_comments_item {
+  font-size: 2.2vh;
+  color: #888;
+}
+
+.Publicacao_linha {
+  margin: 3px 1vh;
+  border-color: #888;
+}
+
+.Publicacao_actions {
+  display: flex;
+  gap: 1vh;
+  margin: 0 1vh;
+}
+
+.Action_button {
+  width: 33%;
+  cursor: pointer;
+  background: #333;
+  border: none;
+  padding: 1.5vh;
+  border-radius: 10px;
+  color: #888;
+}
+.Action_button:hover {
+  background: #555;
+}
